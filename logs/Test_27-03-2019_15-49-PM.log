@@ -1,0 +1,7 @@
+INFO:root:Raw Folder Path:	../../Reports/Test_27-03-2019_15-49-PM/raw/
+INFO:root:Final Folder Path:	../../Reports/Test_27-03-2019_15-49-PM/final/
+INFO:root:Directory ../../Reports/Test_27-03-2019_15-49-PM/final/ already exists 
+INFO:root:Copying Video file from:	../../Reports/Test_27-03-2019_15-49-PM/raw/Test_27-03-2019_15-49-PM_Video.mp4to../../Reports/Test_27-03-2019_15-49-PM/final/Test_27-03-2019_15-49-PM_Video.mp4
+INFO:root:Starting EEG data normalization
+INFO:root:Starting Facial Expression data normalization
+WARNING:root:time data '﻿' does not match format '%Y-%m-%d %H:%M:%S'

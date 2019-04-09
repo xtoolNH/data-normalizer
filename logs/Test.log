@@ -1,0 +1,21 @@
+INFO:root:Folder Path to Chinmayee's EEG data:	../../Reports/Chinmayee_Data/final/
+INFO:root:User Raw Folder Path:	../../Reports/Test/raw/
+INFO:root:Copying EEG file from:	../../Reports/Chinmayee_Data/final/chinmayee_27-03-2019_15-49-PM_EEG.csv to ../../Reports/Test/raw/Test_EEG.csv
+INFO:root:Raw Folder Path:	../../Reports/Test/raw/
+INFO:root:Final Folder Path:	../../Reports/Test/final/
+INFO:root:Directory ../../Reports/Test/final/ Created 
+INFO:root:Copying Video file from:	../../Reports/Test/raw/Test_Video.mp4to../../Reports/Test/final/Test_Video.mp4
+INFO:root:Starting EEG data normalization
+WARNING:root:time data '﻿' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:root:Raw Folder Path:	../../Reports/Test/raw/
+INFO:root:Final Folder Path:	../../Reports/Test/final/
+INFO:root:Directory ../../Reports/Test/final/ already exists 
+INFO:root:Copying Video file from:	../../Reports/Test/raw/Test_Video.mp4to../../Reports/Test/final/Test_Video.mp4
+INFO:root:Starting EEG data normalization
+WARNING:root:time data '﻿' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:root:Raw Folder Path:	../../Reports/Test/raw/
+INFO:root:Final Folder Path:	../../Reports/Test/final/
+INFO:root:Directory ../../Reports/Test/final/ already exists 
+INFO:root:Copying Video file from:	../../Reports/Test/raw/Test_Video.mp4to../../Reports/Test/final/Test_Video.mp4
+INFO:root:Starting Facial Expression data normalization
+WARNING:root:time data '﻿' does not match format '%Y-%m-%d %H:%M:%S'
