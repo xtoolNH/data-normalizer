@@ -42,12 +42,12 @@ logging.info('Copying Video file from:\t' + raw_data_folder_path + incoming_vari
 try:
     # Initialize object of class DataNormalizer() to normalize raw data
     logging.info('Starting EEG data normalization')
-    # e = DataNormalizer('EEG', incoming_variable + '_EEG', raw_data_folder_path, final_folder_path)
-    # e.start()
-    # e.read_dates()
-    # e.count_total_rows()
-    # e.normalize_data()
-    # logging.info('End of EEG data normalization')
+    e = DataNormalizer('EEG', incoming_variable + '_EEG', raw_data_folder_path, final_folder_path)
+    e.start()
+    e.read_dates()
+    e.count_total_rows()
+    e.normalize_data()
+    logging.info('End of EEG data normalization')
 
     logging.info('Starting Facial Expression data normalization')
     f = DataNormalizer('Facial', incoming_variable + '_Facial', raw_data_folder_path, final_folder_path)
