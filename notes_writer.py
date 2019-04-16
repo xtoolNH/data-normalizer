@@ -6,8 +6,8 @@ import logging
 
 class NotesCSV(threading.Thread):
     """
-        class `DataNormalizer` to Normalize EEG and Facial Expressions Data CSV
-        Usage: Initialize an Object for class using: Obj = DataNormalizer()
+        class `NotesCSV` to Write new Notes CSV file
+        Usage: Initialize an Object for class using: Obj = NotesCSV()
     """
     def __init__(self, name, filename, final_folder, start_date, end_date):
         threading.Thread.__init__(self)

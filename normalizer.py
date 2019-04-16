@@ -25,7 +25,7 @@ class DataNormalizer(threading.Thread):
         Usage: Initialize an Object for class using: Obj = DataNormalizer()
     """
 
-    def __init__(self, name, filename, raw_folder, final_folder):
+    def __init__(self, name, filename, raw_folder, final_folder, flag_start, flag_end):
         threading.Thread.__init__(self)
         self.name = name
         self.prev_date = None
@@ -42,30 +42,9 @@ class DataNormalizer(threading.Thread):
         self.writer = None
         self.in_csv = None
         self.out_csv = None
-        self.flag_start = None
-        self.flag_end = None
+        self.flag_start = datetime.datetime.strptime(flag_start, '%Y-%m-%d %H:%M:%S')
+        self.flag_end = datetime.datetime.strptime(flag_end, '%Y-%m-%d %H:%M:%S')
         logging.basicConfig(filename='logs/' + self.filename + '.log', level=logging.DEBUG)
-
-    def read_dates(self):
-        """
-            To Read Dates from `Records.csv` file which is created by RPA program
-            This will give us Recording Start Date and Recording End Date
-        """
-        # Open csv file for reading dates
-        with open('../../Reports/Records.csv', newline='') as date_reader:
-            reader = csv.reader(date_reader, delimiter=',')
-            for row in reader:
-                if 'Recording Start Time' not in row[0]:
-                    # Skip first row as it is Header
-                    self.flag_start = datetime.datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S')
-                    self.flag_end = datetime.datetime.strptime(row[2], '%Y-%m-%d %H:%M:%S')
-            print(self.flag_start)
-            print(self.flag_end)
-            logging.info('Start Date of Video Recording is:\t' + str(self.flag_start))
-            logging.info('End Date of Video Recording is:\t' + str(self.flag_end))
-        # Close csv file
-        date_reader.close()
-        return [str(self.flag_start), str(self.flag_end)]
 
     def count_total_rows(self):
         """
@@ -199,11 +178,11 @@ class DataNormalizer(threading.Thread):
                         # Set Flag as 0 or 1 in Last Column
                         temp = set_flag(self.prev_date, self.flag_start, self.flag_end)
                         self.prev_data.append(temp)
-                        print(row)
+                        print(self.prev_data)
                         logging.info('Last Row -->')
-                        logging.info(row)
+                        logging.info(self.prev_data)
                         # Write to CSV
-                        self.writer.writerow(row)
+                        self.writer.writerow(self.prev_data)
                         print('\n')
 
     def __del__(self):
