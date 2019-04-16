@@ -30,10 +30,8 @@ class DatesReader(threading.Thread):
             for row in self.reader:
                 if 'Recording Start Time' not in row[0]:
                     # Skip first row as it is Header
-                    self.flag_start = datetime.datetime.strptime('2019-04-15 11:27:12', '%Y-%m-%d %H:%M:%S')
-                    self.flag_end = datetime.datetime.strptime('2019-04-15 11:27:41', '%Y-%m-%d %H:%M:%S')
-                    # self.flag_start = datetime.datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S')
-                    # self.flag_end = datetime.datetime.strptime(row[2], '%Y-%m-%d %H:%M:%S')
+                    self.flag_start = datetime.datetime.strptime(row[0], '%Y-%m-%d %H:%M:%S')
+                    self.flag_end = datetime.datetime.strptime(row[2], '%Y-%m-%d %H:%M:%S')
             print(self.flag_start)
             print(self.flag_end)
             logging.info('Start Date of Video Recording is:\t' + str(self.flag_start))
