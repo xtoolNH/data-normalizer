@@ -8,8 +8,8 @@ from pathlib import Path
 from dates_reader import DatesReader
 from eeg_writer import EEGCSV
 from emotions_writer import FEACSV
-from notes_writer import NotesCSV
-from notes_normalizer import NormalizeNotes
+# from notes_writer import NotesCSV
+# from notes_normalizer import NormalizeNotes
 
 """
     This is the Main Script to Start Data Normalization Process
@@ -142,34 +142,34 @@ try:
         logging.debug('End of FEACSV program...')
 
     # Normalize Notes File
-    notes_file = Path(raw_data_folder_path + incoming_variable + '_Notes.csv')
-    if notes_file.is_file():
-        # file exists. Normalize Notes
-        print(raw_data_folder_path + incoming_variable + '_Notes.csv exists!')
-        logging.info(raw_data_folder_path + incoming_variable + '_Notes.csv exists!')
-        logging.debug('Normalizing existing Notes file and Copying to ' + final_folder_path + '/ folder')
-        # Create Normalize_Notes Object
-        n = NormalizeNotes(
-            'Normalize_Notes',
-            incoming_variable + '_Notes',
-            raw_data_folder_path,
-            final_folder_path,
-            diff.seconds
-        )
-        # Normalize Existing Notes file
-        n.normalize()
-        logging.debug('End of NormalizeNotes program...')
-    else:
-        # file does not exist. Create new Notes
-        print(raw_data_folder_path + incoming_variable + '_Notes.csv does not exists!')
-        # Create NotesCSV Object to Write Notes file as CSV
-        logging.debug('Running NotesCSV program now...')
-        # Create NotesCSV Object
-        notes_writer = NotesCSV('Notes', incoming_variable + '_Notes', final_folder_path, dates[0], dates[1])
-        notes_writer.start()
-        # Write Notes
-        notes_writer.write_data()
-        logging.debug('End of NotesCSV program...')
+    # notes_file = Path(raw_data_folder_path + incoming_variable + '_Notes.csv')
+    # if notes_file.is_file():
+    #     # file exists. Normalize Notes
+    #     print(raw_data_folder_path + incoming_variable + '_Notes.csv exists!')
+    #     logging.info(raw_data_folder_path + incoming_variable + '_Notes.csv exists!')
+    #     logging.debug('Normalizing existing Notes file and Copying to ' + final_folder_path + '/ folder')
+    #     # Create Normalize_Notes Object
+    #     n = NormalizeNotes(
+    #         'Normalize_Notes',
+    #         incoming_variable + '_Notes',
+    #         raw_data_folder_path,
+    #         final_folder_path,
+    #         diff.seconds
+    #     )
+    #     # Normalize Existing Notes file
+    #     n.normalize()
+    #     logging.debug('End of NormalizeNotes program...')
+    # else:
+    #     # file does not exist. Create new Notes
+    #     print(raw_data_folder_path + incoming_variable + '_Notes.csv does not exists!')
+    #     # Create NotesCSV Object to Write Notes file as CSV
+    #     logging.debug('Running NotesCSV program now...')
+    #     # Create NotesCSV Object
+    #     notes_writer = NotesCSV('Notes', incoming_variable + '_Notes', final_folder_path, dates[0], dates[1])
+    #     notes_writer.start()
+    #     # Write Notes
+    #     notes_writer.write_data()
+    #     logging.debug('End of NotesCSV program...')
 
 except (OSError, ModuleNotFoundError, FileNotFoundError, EOFError, IOError) as ose:
     logging.debug(ose)

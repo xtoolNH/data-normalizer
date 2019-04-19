@@ -19,3 +19,81 @@ INFO:root:Directory ../../Reports/Test/final/ already exists
 INFO:root:Copying Video file from:	../../Reports/Test/raw/Test_Video.mp4to../../Reports/Test/final/Test_Video.mp4
 INFO:root:Starting Facial Expression data normalization
 WARNING:root:time data '﻿' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:root:Raw Folder Path:	../../Reports/Test/raw/
+INFO:root:Final Folder Path:	../../Reports/Test/final/
+INFO:root:Directory ../../Reports/Test/final/ already exists 
+INFO:root:../../Reports/Test/raw/Test_Video.mp4 does not exists!
+INFO:root:Start Date of Video Recording is:	2019-04-15 11:27:12
+INFO:root:End Date of Video Recording is:	2019-04-15 11:27:41
+INFO:root:../../Reports/Test/raw/Test_EEG.csv does not exists!
+INFO:root:Generating EEG file as:	../../Reports/Test/final/Test_EEG.csv
+INFO:root:Writing Headers in EEG.csv as ->
+INFO:root:['DATETIME', 'DELTA', 'THETA', 'LOW ALPHA', 'HIGH ALPHA', 'LOW BETA', 'HIGH BETA', 'LOW GAMMA', 'HIGH GAMMA', 'ATTENTION', 'RELAXED', 'STRESSED', 'BLINK', 'Flag']
+INFO:root:{'DATETIME': '2019-04-15 11:27:12', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:13', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:14', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:15', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:16', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:17', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:18', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:19', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:20', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:21', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:22', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:23', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:24', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:25', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:26', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:27', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:28', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:29', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:30', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:31', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:32', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:33', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:34', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:35', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:36', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:37', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:38', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:39', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:40', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:41', 'DELTA': 0, 'THETA': 0, 'LOW ALPHA': 0, 'HIGH ALPHA': 0, 'LOW BETA': 0, 'HIGH BETA': 0, 'LOW GAMMA': 0, 'HIGH GAMMA': 0, 'ATTENTION': 0, 'RELAXED': 0, 'STRESSED': 0, 'BLINK': 0, 'Flag': 1}
+INFO:root:end of EEG.csv file
+DEBUG:root:End of EEGCSV program...
+INFO:root:../../Reports/Test/raw/Test_Facial.csv does not exists!
+INFO:root:Generating EEG file as:	../../Reports/Test/final/Test_Facial.csv
+INFO:root:Writing Headers in Facial.csv as ->
+INFO:root:['DATETIME', 'Angry', 'Disgusted', 'Fearful', 'Happy', 'Sad', 'Surprised', 'Neutral', 'Flag']
+INFO:root:{'DATETIME': '2019-04-15 11:27:12', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:13', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:14', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:15', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:16', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:17', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:18', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:19', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:20', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:21', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:22', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:23', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:24', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:25', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:26', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:27', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:28', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:29', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:30', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:31', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:32', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:33', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:34', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:35', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:36', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:37', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:38', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:39', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:40', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:{'DATETIME': '2019-04-15 11:27:41', 'Angry': 0, 'Disgusted': 0, 'Fearful': 0, 'Happy': 0, 'Sad': 0, 'Surprised': 0, 'Neutral': 0, 'Flag': 1}
+INFO:root:end of Facial.csv file
+DEBUG:root:End of FEACSV program...
