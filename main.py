@@ -10,6 +10,7 @@ from eeg_writer import EEGCSV
 from emotions_writer import FEACSV
 # from notes_writer import NotesCSV
 # from notes_normalizer import NormalizeNotes
+from user_video_normalizer import user_video_writer
 
 """
     This is the Main Script to Start Data Normalization Process
@@ -140,6 +141,15 @@ try:
         # Write Facial data
         fea_writer.write_data()
         logging.debug('End of FEACSV program...')
+
+    # Normalize User Video
+    # Read User Video Frames from `data/` folder and make a video from it
+    user_video_writer(
+        incoming_variable + '_User',
+        final_folder_path,
+        dates[0],
+        dates[1]
+    )
 
     # Normalize Notes File
     # notes_file = Path(raw_data_folder_path + incoming_variable + '_Notes.csv')
